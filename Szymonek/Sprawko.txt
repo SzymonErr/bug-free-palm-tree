@@ -10,3 +10,13 @@ C++:
 
 Sources:
 1) stackoverflow.com
+
+
+
+Day 2:
+18/07/2019, 1h, end:23:36
+
+Git/Github:
+- creating repo, commit, push etc.
+- undoing last push (the ugly way)
+- basic git configuration
