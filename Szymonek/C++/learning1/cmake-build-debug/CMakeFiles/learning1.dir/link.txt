@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/learning1.dir/main.cpp.o CMakeFiles/learning1.dir/base.cpp.o CMakeFiles/learning1.dir/derived_one.cpp.o  -o learning1 

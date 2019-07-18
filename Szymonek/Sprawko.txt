@@ -1,0 +1,12 @@
+Day 1:
+17/07/2019, 38 min, end:23:42
+
+C++:
+- writing some code;
+- basic semantic and implementation of classes, declaring and initializing objects, pointers, arrays;
+- static class members, declaration and initialization
+- class templates semantic, deriving from template classes, differences between "class template" and "template class"
+- deriving and class polymorphism
+
+Sources:
+1) stackoverflow.com
