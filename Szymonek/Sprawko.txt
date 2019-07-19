@@ -20,3 +20,10 @@ Git/Github:
 - creating repo, commit, push etc.
 - undoing last push (the ugly way)
 - basic git configuration
+
+
+Day 3:
+19/07/2019, 36 min, end 00:07
+
+Git/Github:
+- creating short git/github guide in .txt doc
