@@ -1,0 +1,47 @@
+Sciagnij i zainstaluj sobie gita
+https://gitforwindows.org
+
+Załóż konto na githubie
+https://github.com
+
+Tutaj jest ogólnie całkiem fajny poradnik, żeby ogarnąć podstawy:
+https://git-scm.com/book/pl/v2/Pierwsze-kroki-Wprowadzenie-do-kontroli-wersji
+ew. w wersji anglojęzycznej:
+https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
+
+Jak już ściągniesz i zainstalujesz, to trzeba zrobić krótką konfigurację. Włącz tą konsolę gita, którą właśnie zainstalowałaś i wywołaj dwie komendy:
+
+git config --global user.name "USERNAME"
+git config --global user.email example@example.com
+
+W pierwszej w miejscu USERNAME wpisujesz swoją nazwę użytkownika (musi być w cudzysłowiach, czyli np. "AdamKowalski"), najlepiej taką, jaką masz na githubie.
+W drugiej email, na który to konto założyłaś, tutaj już bez cudzysłowów.
+Reszta powinna być wstępnie skonfigurowana, przynajmniej na tyle, ile narazie potrzeba. 
+
+2. Pobieranie repozytorium na swoj komputer najlepiej ogarnij na podstawie tego poradnika, który podesłałem + reaguj na ew. komunikaty, które Ci w konsoli wyskoczą.
+
+3. Ta konsola zachowuje się bardzo podobnie do konsoli z linuxa, kilka przydatnych komend:
+
+ls -> wyswietla liste katalogow i plikow w obecnej lokalizacji. "ls -a" wyswietli tez ukryte pliki/katalogi
+cd nazwa_katalogu -> przejscie do katalogu o nazwie nazwa_katalogu. "cd .." cofa do katalogu wyzej.
+pwd -> wypisuje sciezke katalogu, w którym obecnie jesteś
+cp sciezka_do_pliku docelowy_folder -> kopiuje plik sciezka_do_pliku do docelowy_folde. Jak kopiujesz foldery, trzeba dodać cp -r (reszta tak samo).
+mv sciezka_do_pliku docelowy_folder -> to samo co wyzej, tylko przenosi, a nie kopiuje
+
+Te dwie ostatnie komendy, to i tak możesz zrobić z poziomu menagera plików w widnowskie, więc nie musisz się męczyć
+
+4. Kilka komend z gita:
+
+git clone link_do_repozytorium -> ściąga repozytorium na Twój komputer z githuba. link_do_repozytorium bierzesz np. z githuba, tam masz taki przycisk "clone or download" i jak to klikniesz, to wyskakuje link
+git status -> pokazuje, jakie zmiany nastąpiły od ostatniego commita, ew. jakie elementy są w buforze. Jak jest na czerwono, to znaczy, że jest nowy albo zmodyfikowany plik, i jeszcze go nie dołączyłaś przez git add. Jak na zielono, to są w buforze. Jak jest pusto, to znaczy, że nic się nie zmieniło.
+git add . -> dodaje wszystkie pliki, ktore zmieniłaś albo stworzyłaś nowe do takiego bufora, który później można wypchać jako commit. Ta kropka ma tam być, ew. zamiast niej może być sciezka do konkretnego pliku
+git reset -> wyczyści bufor
+git commit -m "komentarz" -> tworzy commita, w miejscu komentarz wpisujesz komentarz do commita, najlepiej coś krótkiego
+git log -> wyswietla listę commitów, z autorem, datą i id commitu
+git remote -v -> wyswietla podłączone repozytoria z githuba. Powinno tam być samo origin (ew. w dwóch wersjach: fetch i push)
+git remote add nazwa link_do_repo -> jakby byly jakies problemy, to mozna podlaczyc nowe repo, w miejscu nazwa wpisujesz, jak chcesz, zeby to sie nazywało (to podłączenie, ta nazwa jest w sumie bez znaczenia) a w miejscu link_do_repo wrzucasz link do repo
+git push origin master -> wysyła zmiany na githuba, żeby były dostępne dla wszystkich podłączonych do repozytorium. Jakby były problemy, to dodaj nowe podłączenie i origin zastąp tą nazwą, którą tam wpisałaś.
+
+Z takich zasad ogólnych, to za każdym razem, jak kończysz pracę na dany dzień, daną chwilę, dobrze jest zrobić commita (niekoniecznie musisz go push'ować na githuba). Jak kończysz pracę, git status powinno nie pokazać żadnych plików na czerwono ani na zielono.
+
+Więcej i lepiej wytłumaczone masz w tym poradniku, który podlinkowałem na początku tego dokumentu. To taki podręczny poradnik, mam nadzieję, że jakkolwiek się przyda :)
