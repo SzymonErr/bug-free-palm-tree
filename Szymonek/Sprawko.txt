@@ -27,3 +27,12 @@ Day 3:
 
 Git/Github:
 - creating short git/github guide in .txt doc
+
+
+Day 4:
+20/07/2019, 30 mint, end:23:29
+
+C++ (reading):
+- inline keyword, execution time in C++
+- reference, how to declare and initialize
+- passing function args by reference, pros and cons
