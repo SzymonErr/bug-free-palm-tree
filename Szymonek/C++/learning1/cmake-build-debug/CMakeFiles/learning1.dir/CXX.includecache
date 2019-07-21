@@ -6,21 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/home/szymon/CLionProjects/learning1/base.h
+/home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1/base.h
 iostream
 -
 
-/home/szymon/CLionProjects/learning1/derived_one.h
+/home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1/derived_one.h
 iostream
 -
 base.h
-/home/szymon/CLionProjects/learning1/base.h
+/home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1/base.h
 
-/home/szymon/CLionProjects/learning1/main.cpp
+/home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1/derived_two.h
 iostream
 -
 base.h
-/home/szymon/CLionProjects/learning1/base.h
+/home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1/base.h
+
+/home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1/main.cpp
+iostream
+-
+base.h
+/home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1/base.h
 derived_one.h
-/home/szymon/CLionProjects/learning1/derived_one.h
+/home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1/derived_one.h
+derived_two.h
+/home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1/derived_two.h
 

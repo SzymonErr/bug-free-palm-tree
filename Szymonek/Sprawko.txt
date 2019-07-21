@@ -30,9 +30,18 @@ Git/Github:
 
 
 Day 4:
-20/07/2019, 30 mint, end:23:29
+20/07/2019, 30 min, end:23:29
 
 C++ (reading):
 - inline keyword, execution time in C++
 - reference, how to declare and initialize
 - passing function args by reference, pros and cons
+
+
+Day 5:
+21/07/2019, 30 min, end: 16:00
+
+C++ (coding):
+- inheritance and polymorphism
+- lambda expressions' syntax
+- passing pointer to array as function arg 

@@ -48,10 +48,10 @@ RM = /home/szymon/clion-2019.1.4/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/szymon/CLionProjects/learning1
+CMAKE_SOURCE_DIR = /home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/szymon/CLionProjects/learning1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/szymon/CLionProjects/learning1/cmake-build-debug/CMakeFiles /home/szymon/CLionProjects/learning1/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1/cmake-build-debug/CMakeFiles /home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/szymon/CLionProjects/learning1/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -177,6 +177,33 @@ derived_one.cpp.s:
 	$(MAKE) -f CMakeFiles/learning1.dir/build.make CMakeFiles/learning1.dir/derived_one.cpp.s
 .PHONY : derived_one.cpp.s
 
+derived_two.o: derived_two.cpp.o
+
+.PHONY : derived_two.o
+
+# target to build an object file
+derived_two.cpp.o:
+	$(MAKE) -f CMakeFiles/learning1.dir/build.make CMakeFiles/learning1.dir/derived_two.cpp.o
+.PHONY : derived_two.cpp.o
+
+derived_two.i: derived_two.cpp.i
+
+.PHONY : derived_two.i
+
+# target to preprocess a source file
+derived_two.cpp.i:
+	$(MAKE) -f CMakeFiles/learning1.dir/build.make CMakeFiles/learning1.dir/derived_two.cpp.i
+.PHONY : derived_two.cpp.i
+
+derived_two.s: derived_two.cpp.s
+
+.PHONY : derived_two.s
+
+# target to generate assembly for a file
+derived_two.cpp.s:
+	$(MAKE) -f CMakeFiles/learning1.dir/build.make CMakeFiles/learning1.dir/derived_two.cpp.s
+.PHONY : derived_two.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -219,6 +246,9 @@ help:
 	@echo "... derived_one.o"
 	@echo "... derived_one.i"
 	@echo "... derived_one.s"
+	@echo "... derived_two.o"
+	@echo "... derived_two.i"
+	@echo "... derived_two.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

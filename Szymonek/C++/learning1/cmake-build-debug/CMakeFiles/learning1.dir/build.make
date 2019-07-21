@@ -43,10 +43,10 @@ RM = /home/szymon/clion-2019.1.4/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/szymon/CLionProjects/learning1
+CMAKE_SOURCE_DIR = /home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/szymon/CLionProjects/learning1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/learning1.dir/depend.make
@@ -59,48 +59,62 @@ include CMakeFiles/learning1.dir/flags.make
 
 CMakeFiles/learning1.dir/main.cpp.o: CMakeFiles/learning1.dir/flags.make
 CMakeFiles/learning1.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szymon/CLionProjects/learning1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/learning1.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learning1.dir/main.cpp.o -c /home/szymon/CLionProjects/learning1/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/learning1.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learning1.dir/main.cpp.o -c /home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1/main.cpp
 
 CMakeFiles/learning1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learning1.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/szymon/CLionProjects/learning1/main.cpp > CMakeFiles/learning1.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1/main.cpp > CMakeFiles/learning1.dir/main.cpp.i
 
 CMakeFiles/learning1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learning1.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/szymon/CLionProjects/learning1/main.cpp -o CMakeFiles/learning1.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1/main.cpp -o CMakeFiles/learning1.dir/main.cpp.s
 
 CMakeFiles/learning1.dir/base.cpp.o: CMakeFiles/learning1.dir/flags.make
 CMakeFiles/learning1.dir/base.cpp.o: ../base.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szymon/CLionProjects/learning1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/learning1.dir/base.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learning1.dir/base.cpp.o -c /home/szymon/CLionProjects/learning1/base.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/learning1.dir/base.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learning1.dir/base.cpp.o -c /home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1/base.cpp
 
 CMakeFiles/learning1.dir/base.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learning1.dir/base.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/szymon/CLionProjects/learning1/base.cpp > CMakeFiles/learning1.dir/base.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1/base.cpp > CMakeFiles/learning1.dir/base.cpp.i
 
 CMakeFiles/learning1.dir/base.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learning1.dir/base.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/szymon/CLionProjects/learning1/base.cpp -o CMakeFiles/learning1.dir/base.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1/base.cpp -o CMakeFiles/learning1.dir/base.cpp.s
 
 CMakeFiles/learning1.dir/derived_one.cpp.o: CMakeFiles/learning1.dir/flags.make
 CMakeFiles/learning1.dir/derived_one.cpp.o: ../derived_one.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szymon/CLionProjects/learning1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/learning1.dir/derived_one.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learning1.dir/derived_one.cpp.o -c /home/szymon/CLionProjects/learning1/derived_one.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/learning1.dir/derived_one.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learning1.dir/derived_one.cpp.o -c /home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1/derived_one.cpp
 
 CMakeFiles/learning1.dir/derived_one.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learning1.dir/derived_one.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/szymon/CLionProjects/learning1/derived_one.cpp > CMakeFiles/learning1.dir/derived_one.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1/derived_one.cpp > CMakeFiles/learning1.dir/derived_one.cpp.i
 
 CMakeFiles/learning1.dir/derived_one.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learning1.dir/derived_one.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/szymon/CLionProjects/learning1/derived_one.cpp -o CMakeFiles/learning1.dir/derived_one.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1/derived_one.cpp -o CMakeFiles/learning1.dir/derived_one.cpp.s
+
+CMakeFiles/learning1.dir/derived_two.cpp.o: CMakeFiles/learning1.dir/flags.make
+CMakeFiles/learning1.dir/derived_two.cpp.o: ../derived_two.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/learning1.dir/derived_two.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learning1.dir/derived_two.cpp.o -c /home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1/derived_two.cpp
+
+CMakeFiles/learning1.dir/derived_two.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learning1.dir/derived_two.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1/derived_two.cpp > CMakeFiles/learning1.dir/derived_two.cpp.i
+
+CMakeFiles/learning1.dir/derived_two.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learning1.dir/derived_two.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1/derived_two.cpp -o CMakeFiles/learning1.dir/derived_two.cpp.s
 
 # Object files for target learning1
 learning1_OBJECTS = \
 "CMakeFiles/learning1.dir/main.cpp.o" \
 "CMakeFiles/learning1.dir/base.cpp.o" \
-"CMakeFiles/learning1.dir/derived_one.cpp.o"
+"CMakeFiles/learning1.dir/derived_one.cpp.o" \
+"CMakeFiles/learning1.dir/derived_two.cpp.o"
 
 # External object files for target learning1
 learning1_EXTERNAL_OBJECTS =
@@ -108,9 +122,10 @@ learning1_EXTERNAL_OBJECTS =
 learning1: CMakeFiles/learning1.dir/main.cpp.o
 learning1: CMakeFiles/learning1.dir/base.cpp.o
 learning1: CMakeFiles/learning1.dir/derived_one.cpp.o
+learning1: CMakeFiles/learning1.dir/derived_two.cpp.o
 learning1: CMakeFiles/learning1.dir/build.make
 learning1: CMakeFiles/learning1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/szymon/CLionProjects/learning1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable learning1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable learning1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/learning1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -123,6 +138,6 @@ CMakeFiles/learning1.dir/clean:
 .PHONY : CMakeFiles/learning1.dir/clean
 
 CMakeFiles/learning1.dir/depend:
-	cd /home/szymon/CLionProjects/learning1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/szymon/CLionProjects/learning1 /home/szymon/CLionProjects/learning1 /home/szymon/CLionProjects/learning1/cmake-build-debug /home/szymon/CLionProjects/learning1/cmake-build-debug /home/szymon/CLionProjects/learning1/cmake-build-debug/CMakeFiles/learning1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1 /home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1 /home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1/cmake-build-debug /home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1/cmake-build-debug /home/szymon/Desktop/bug-free-palm-tree/Szymonek/C++/learning1/cmake-build-debug/CMakeFiles/learning1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/learning1.dir/depend
 

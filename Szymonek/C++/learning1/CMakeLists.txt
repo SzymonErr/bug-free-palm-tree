@@ -3,4 +3,4 @@ project(learning1)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(learning1 main.cpp base.cpp base.h derived_one.cpp derived_one.h)
+add_executable(learning1 main.cpp base.cpp base.h derived_one.cpp derived_one.h derived_two.cpp derived_two.h)
